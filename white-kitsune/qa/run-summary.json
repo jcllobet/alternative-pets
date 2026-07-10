@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": ".",
+  "spritesheet": "../spritesheet.webp",
+  "validation": "validation-extended.json",
+  "chroma_despill": "chroma-despill-extended.json",
+  "contact_sheet": "contact-sheet-extended.png",
+  "direction_sheet": "look-directions.png",
+  "direction_semantics": "direction-semantics.json",
+  "blind_direction_validation": "direction-blind-validation.json",
+  "blind_review_resolution": null,
+  "continuity": "look-continuity.json",
+  "review": "review.json",
+  "final_visual_qa": "final-visual-qa.json",
+  "palette_reports": [
+    "standard-palette-report.json",
+    "look-row-9-palette.json",
+    "look-row-10-palette-registered.json"
+  ],
+  "package": ".."
+}

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "coordinate_system": "viewer/screen coordinates",
+  "directions": [
+    {"degrees": 0, "label": "000 up", "status": "pass", "horizontal": {"expected": "neutral", "evidence": "face stays centered"}, "vertical": {"expected": "up", "evidence": "chin and nose point toward 12 o'clock, pupils sit high, ears follow upward"}},
+    {"degrees": 22.5, "label": "022.5 up-right", "status": "pass", "horizontal": {"expected": "screen-right", "evidence": "nose and pupils move right of head center"}, "vertical": {"expected": "up", "evidence": "muzzle remains lifted and pupils stay high"}},
+    {"degrees": 45, "label": "045 up-right", "status": "pass", "horizontal": {"expected": "screen-right", "evidence": "clear rightward nose and cheek turn"}, "vertical": {"expected": "up", "evidence": "chin remains elevated"}},
+    {"degrees": 67.5, "label": "067.5 up-right", "status": "pass", "horizontal": {"expected": "screen-right", "evidence": "muzzle projects toward the right edge"}, "vertical": {"expected": "up", "evidence": "eyes and nose remain slightly raised"}},
+    {"degrees": 90, "label": "090 right", "status": "pass", "horizontal": {"expected": "screen-right", "evidence": "unmistakable right-facing head profile"}, "vertical": {"expected": "neutral", "evidence": "muzzle is level"}},
+    {"degrees": 112.5, "label": "112.5 down-right", "status": "pass", "horizontal": {"expected": "screen-right", "evidence": "nose remains right of head center"}, "vertical": {"expected": "down", "evidence": "muzzle and pupils begin lowering"}},
+    {"degrees": 135, "label": "135 down-right", "status": "pass", "horizontal": {"expected": "screen-right", "evidence": "rightward cheek and nose remain visible"}, "vertical": {"expected": "down", "evidence": "head bows clearly"}},
+    {"degrees": 157.5, "label": "157.5 down-right", "status": "pass", "horizontal": {"expected": "screen-right", "evidence": "lowered muzzle still points right"}, "vertical": {"expected": "down", "evidence": "chin and gaze point toward the lower edge"}},
+    {"degrees": 180, "label": "180 down", "status": "pass", "horizontal": {"expected": "neutral", "evidence": "face returns to centered frontal alignment"}, "vertical": {"expected": "down", "evidence": "muzzle, pupils, and ears read clearly bowed"}},
+    {"degrees": 202.5, "label": "202.5 down-left", "status": "pass", "horizontal": {"expected": "screen-left", "evidence": "nose and pupils sit left of head center"}, "vertical": {"expected": "down", "evidence": "head remains bowed"}},
+    {"degrees": 225, "label": "225 down-left", "status": "pass", "horizontal": {"expected": "screen-left", "evidence": "clear leftward muzzle projection"}, "vertical": {"expected": "down", "evidence": "chin and pupils stay lowered"}},
+    {"degrees": 247.5, "label": "247.5 down-left", "status": "pass", "horizontal": {"expected": "screen-left", "evidence": "head is mostly left-facing"}, "vertical": {"expected": "down", "evidence": "remaining downward pitch is visible"}},
+    {"degrees": 270, "label": "270 left", "status": "pass", "horizontal": {"expected": "screen-left", "evidence": "unmistakable left-facing head profile"}, "vertical": {"expected": "neutral", "evidence": "muzzle is level"}},
+    {"degrees": 292.5, "label": "292.5 up-left", "status": "pass", "horizontal": {"expected": "screen-left", "evidence": "nose remains left of head center"}, "vertical": {"expected": "up", "evidence": "muzzle begins lifting"}},
+    {"degrees": 315, "label": "315 up-left", "status": "pass", "horizontal": {"expected": "screen-left", "evidence": "left profile remains clear"}, "vertical": {"expected": "up", "evidence": "chin and gaze point upward"}},
+    {"degrees": 337.5, "label": "337.5 up-left", "status": "pass", "horizontal": {"expected": "screen-left", "evidence": "subtle leftward nose offset remains"}, "vertical": {"expected": "up", "evidence": "head is strongly lifted one step before 000"}}
+  ],
+  "single_tail_every_direction": true,
+  "body_registration": "pass",
+  "blind_validation": "qa/direction-blind-validation.json",
+  "continuity_review": {
+    "status": "pass",
+    "metrics": "qa/look-continuity.json",
+    "reviewed_warnings": [
+      "180 alpha-hole rows are the intentional exterior gap between ears, not an interior sprite hole",
+      "067.5 to 090 is a natural transition into a side profile with no visible reversal or snap",
+      "157.5 to 180 changes from down-right to frontal-down; labeled normal-size review confirms correct boundary semantics and stable planted paws",
+      "337.5 to 000 changes from up-left profile to frontal-up; the area and center shift come from natural profile foreshortening and the stronger cardinal cue, with no clipping or identity break"
+    ]
+  }
+}

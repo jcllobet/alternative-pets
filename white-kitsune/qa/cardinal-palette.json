@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "targets": {
+    "fur_white": "#FDFDFC",
+    "vermilion": "#F72A4F",
+    "indigo": "#050C67",
+    "shadow": "#DCCAD8"
+  },
+  "acceptance_threshold": 18,
+  "anchors": [
+    {
+      "direction": "000",
+      "colors": {
+        "fur_white": {
+          "median": "#FCFCFC",
+          "distance": 1.41,
+          "pixels": 8770
+        },
+        "vermilion": {
+          "median": "#F61D4B",
+          "distance": 13.64,
+          "pixels": 3227
+        },
+        "indigo": {
+          "median": "#000E62",
+          "distance": 7.35,
+          "pixels": 1104
+        },
+        "shadow": {
+          "median": "#E1CAD8",
+          "distance": 5.0,
+          "pixels": 3271
+        }
+      }
+    },
+    {
+      "direction": "090",
+      "colors": {
+        "fur_white": {
+          "median": "#FBFBFB",
+          "distance": 3.0,
+          "pixels": 8922
+        },
+        "vermilion": {
+          "median": "#F82343",
+          "distance": 13.93,
+          "pixels": 2055
+        },
+        "indigo": {
+          "median": "#010F65",
+          "distance": 5.39,
+          "pixels": 1157
+        },
+        "shadow": {
+          "median": "#E3CDDB",
+          "distance": 8.19,
+          "pixels": 1998
+        }
+      }
+    },
+    {
+      "direction": "180",
+      "colors": {
+        "fur_white": {
+          "median": "#FDFDFD",
+          "distance": 1.0,
+          "pixels": 12133
+        },
+        "vermilion": {
+          "median": "#F32041",
+          "distance": 17.66,
+          "pixels": 2773
+        },
+        "indigo": {
+          "median": "#00075B",
+          "distance": 13.93,
+          "pixels": 1489
+        },
+        "shadow": {
+          "median": "#E0CBD8",
+          "distance": 4.12,
+          "pixels": 2714
+        }
+      }
+    },
+    {
+      "direction": "270",
+      "colors": {
+        "fur_white": {
+          "median": "#FCFCFC",
+          "distance": 1.41,
+          "pixels": 9344
+        },
+        "vermilion": {
+          "median": "#F32142",
+          "distance": 16.31,
+          "pixels": 2132
+        },
+        "indigo": {
+          "median": "#000865",
+          "distance": 6.71,
+          "pixels": 1381
+        },
+        "shadow": {
+          "median": "#DECAD8",
+          "distance": 2.0,
+          "pixels": 2168
+        }
+      }
+    }
+  ]
+}

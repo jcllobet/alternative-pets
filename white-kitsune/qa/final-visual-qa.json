@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "standard_rows": "pass",
+  "direction_rows": "pass",
+  "single_tail_identity": "pass",
+  "palette_consistency": "pass",
+  "blind_direction_validation": "pass",
+  "v2_validation": "pass",
+  "chroma_despill": "pass",
+  "review_warnings": [],
+  "repair_rows": []
+}

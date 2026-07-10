@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "acceptance_threshold": 18,
+  "targets": {
+    "fur_white": "#FDFDFC",
+    "vermilion": "#F72A4F"
+  },
+  "rows": [
+    {
+      "state": "failed",
+      "ok": true,
+      "fur_white_max_distance": 2.24,
+      "vermilion_max_distance": 3.74
+    },
+    {
+      "state": "idle",
+      "ok": true,
+      "fur_white_max_distance": 2.45,
+      "vermilion_max_distance": 9.54
+    },
+    {
+      "state": "jumping",
+      "ok": true,
+      "fur_white_max_distance": 2.24,
+      "vermilion_max_distance": 7.28
+    },
+    {
+      "state": "review",
+      "ok": true,
+      "fur_white_max_distance": 0.0,
+      "vermilion_max_distance": 6.4
+    },
+    {
+      "state": "running",
+      "ok": true,
+      "fur_white_max_distance": 1.73,
+      "vermilion_max_distance": 9.06
+    },
+    {
+      "state": "running-left",
+      "ok": true,
+      "fur_white_max_distance": 2.24,
+      "vermilion_max_distance": 8.12
+    },
+    {
+      "state": "running-right",
+      "ok": true,
+      "fur_white_max_distance": 1.41,
+      "vermilion_max_distance": 7.68
+    },
+    {
+      "state": "waiting",
+      "ok": true,
+      "fur_white_max_distance": 1.0,
+      "vermilion_max_distance": 11.0
+    },
+    {
+      "state": "waving",
+      "ok": true,
+      "fur_white_max_distance": 1.73,
+      "vermilion_max_distance": 9.27
+    }
+  ],
+  "global_max": {
+    "fur_white": 2.45,
+    "vermilion": 11.0
+  }
+}

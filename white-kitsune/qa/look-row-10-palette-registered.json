@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "acceptance_threshold": 18,
+  "targets": {
+    "fur_white": "#FDFDFC",
+    "vermilion": "#F72A4F"
+  },
+  "directions": [
+    {
+      "direction": "180",
+      "colors": {
+        "fur_white": {
+          "median": "#FEFDFD",
+          "distance": 1.41,
+          "pixels": 7482
+        },
+        "vermilion": {
+          "median": "#FA2544",
+          "distance": 12.45,
+          "pixels": 1889
+        }
+      }
+    },
+    {
+      "direction": "202.5",
+      "colors": {
+        "fur_white": {
+          "median": "#FEFDFE",
+          "distance": 2.24,
+          "pixels": 7177
+        },
+        "vermilion": {
+          "median": "#F92443",
+          "distance": 13.56,
+          "pixels": 1691
+        }
+      }
+    },
+    {
+      "direction": "225",
+      "colors": {
+        "fur_white": {
+          "median": "#FEFDFE",
+          "distance": 2.24,
+          "pixels": 7227
+        },
+        "vermilion": {
+          "median": "#F92343",
+          "distance": 14.04,
+          "pixels": 1616
+        }
+      }
+    },
+    {
+      "direction": "247.5",
+      "colors": {
+        "fur_white": {
+          "median": "#FEFDFE",
+          "distance": 2.24,
+          "pixels": 7534
+        },
+        "vermilion": {
+          "median": "#F92444",
+          "distance": 12.69,
+          "pixels": 1619
+        }
+      }
+    },
+    {
+      "direction": "270",
+      "colors": {
+        "fur_white": {
+          "median": "#FEFDFE",
+          "distance": 2.24,
+          "pixels": 7482
+        },
+        "vermilion": {
+          "median": "#F92443",
+          "distance": 13.56,
+          "pixels": 1561
+        }
+      }
+    },
+    {
+      "direction": "292.5",
+      "colors": {
+        "fur_white": {
+          "median": "#FEFDFE",
+          "distance": 2.24,
+          "pixels": 7414
+        },
+        "vermilion": {
+          "median": "#FA2443",
+          "distance": 13.75,
+          "pixels": 1504
+        }
+      }
+    },
+    {
+      "direction": "315",
+      "colors": {
+        "fur_white": {
+          "median": "#FEFEFE",
+          "distance": 2.45,
+          "pixels": 7290
+        },
+        "vermilion": {
+          "median": "#F92343",
+          "distance": 14.04,
+          "pixels": 1503
+        }
+      }
+    },
+    {
+      "direction": "337.5",
+      "colors": {
+        "fur_white": {
+          "median": "#FEFEFE",
+          "distance": 2.45,
+          "pixels": 7383
+        },
+        "vermilion": {
+          "median": "#FA2444",
+          "distance": 12.88,
+          "pixels": 1448
+        }
+      }
+    }
+  ]
+}
