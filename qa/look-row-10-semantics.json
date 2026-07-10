@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "row": 10,
+  "registration": "pass",
+  "edge_check": "pass",
+  "continuity": "pass",
+  "directions": [
+    {"direction": "180", "verdict": "pass", "expected": "down", "observed": "Eyes, nose, and muzzle point unmistakably down beneath the brow."},
+    {"direction": "202.5", "verdict": "warning", "expected": "down-left", "observed": "Strong downward gaze with a subtle but visible screen-left facial shift."},
+    {"direction": "225", "verdict": "pass", "expected": "down-left", "observed": "Lowered muzzle and visible eye advance into the screen-left quadrant."},
+    {"direction": "247.5", "verdict": "pass", "expected": "down-left", "observed": "Near-left profile retains a downward pitch."},
+    {"direction": "270", "verdict": "pass", "expected": "left", "observed": "Nose and visible pupil form an unmistakable screen-left profile."},
+    {"direction": "292.5", "verdict": "pass", "expected": "up-left", "observed": "Left-facing profile begins lifting the muzzle and gaze."},
+    {"direction": "315", "verdict": "pass", "expected": "up-left", "observed": "Lifted screen-left face continues smoothly toward the front."},
+    {"direction": "337.5", "verdict": "warning", "expected": "up-left", "observed": "Near-front pose retains a subtle leftward facial bias and lifted gaze one step before 000."}
+  ],
+  "reviewed_by": "parent"
+}

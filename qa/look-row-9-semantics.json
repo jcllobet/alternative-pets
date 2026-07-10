@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "row": 9,
+  "registration": "pass",
+  "edge_check": "pass",
+  "continuity": "pass",
+  "directions": [
+    {"direction": "000", "verdict": "pass", "expected": "up", "observed": "Eyes, nose, and muzzle lift vertically."},
+    {"direction": "022.5", "verdict": "pass", "expected": "up-right", "observed": "Lifted gaze begins moving screen-right."},
+    {"direction": "045", "verdict": "pass", "expected": "up-right", "observed": "Head and muzzle turn farther right while remaining raised."},
+    {"direction": "067.5", "verdict": "pass", "expected": "up-right", "observed": "Near-profile right turn retains a small upward pitch."},
+    {"direction": "090", "verdict": "pass", "expected": "right", "observed": "Nose and visible pupil form an unmistakable screen-right profile."},
+    {"direction": "112.5", "verdict": "pass", "expected": "down-right", "observed": "Right-facing profile begins pitching downward."},
+    {"direction": "135", "verdict": "pass", "expected": "down-right", "observed": "Lowered muzzle remains clearly on the screen-right side."},
+    {"direction": "157.5", "verdict": "warning", "expected": "down-right", "observed": "Strong downward gaze with a subtle but still right-of-center horizontal cue."}
+  ],
+  "reviewed_by": "parent"
+}
