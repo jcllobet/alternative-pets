@@ -1,0 +1,12 @@
+{
+  "visual_qa": "pass",
+  "qa_note": "Row 4 preserves the idle-scale 198 px height, baseline, head/body proportions, limb and boot dimensions, and outline weight across all frames, with only side glances and subtle garment or forearm motion; identity and palette remain consistent throughout all 11 rows.",
+  "review_warnings": [
+    "045 blind horizontal disagreement accepted from labeled ordered-loop evidence.",
+    "157.5 and 202.5 horizontal cues are subtle near down.",
+    "225 and 247.5 vertical cues are restrained near left.",
+    "135->157.5 and 180->202.5 metric warnings have no visible snap, scale pop, reversal, or identity drift."
+  ],
+  "repair_rows": [],
+  "repair_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "directions": [
+    {"direction":"000","expected":"up","verdict":"pass","observed":"Centered raised gaze.","reason":"Clearly reads up."},
+    {"direction":"022.5","expected":"up-right","verdict":"pass","observed":"Raised gaze begins a subtle screen-right turn.","reason":"Correct first up-right step in the ordered loop."},
+    {"direction":"045","expected":"up-right","verdict":"warning","observed":"Raised three-quarter screen-right gaze.","reason":"Labeled loop reads up-right despite a reversed subtle horizontal blind cue."},
+    {"direction":"067.5","expected":"up-right","verdict":"pass","observed":"Near-profile lifted screen-right gaze.","reason":"Correct quadrant and smooth transition into 090."},
+    {"direction":"090","expected":"right","verdict":"pass","observed":"Unmistakable screen-right profile.","reason":"Blind hard gate passed."},
+    {"direction":"112.5","expected":"down-right","verdict":"pass","observed":"Screen-right profile with descending gaze.","reason":"Both axes read without a registration snap."},
+    {"direction":"135","expected":"down-right","verdict":"pass","observed":"Downward three-quarter screen-right pose.","reason":"Correct quadrant and continuous progression."},
+    {"direction":"157.5","expected":"down-right","verdict":"warning","observed":"Smooth near-frontal down-right pose with subtle horizontal cue.","reason":"Labeled loop confirms the intended side and continuous boundary into 180."},
+    {"direction":"180","expected":"down","verdict":"pass","observed":"Centered bowed head.","reason":"Clearly reads down and blind hard gate passed."},
+    {"direction":"202.5","expected":"down-left","verdict":"warning","observed":"First down-left step is visually subtle but continuous.","reason":"Labeled loop confirms the intended quadrant after 180."},
+    {"direction":"225","expected":"down-left","verdict":"warning","observed":"Screen-left turn is clear while the downward cue is restrained.","reason":"Correct quadrant in labeled ordered-loop review."},
+    {"direction":"247.5","expected":"down-left","verdict":"warning","observed":"Near-left profile retains a subtle downward cue.","reason":"Correct quadrant near the left cardinal."},
+    {"direction":"270","expected":"left","verdict":"pass","observed":"Unmistakable screen-left profile.","reason":"Blind hard gate passed."},
+    {"direction":"292.5","expected":"up-left","verdict":"pass","observed":"Strong screen-left turn with lifted gaze.","reason":"Both axes read."},
+    {"direction":"315","expected":"up-left","verdict":"pass","observed":"Three-quarter screen-left face with raised eyes.","reason":"Both axes read and transition smoothly."},
+    {"direction":"337.5","expected":"up-left","verdict":"pass","observed":"Near-frontal raised gaze retains visible screen-left bias.","reason":"Correct quadrant and smooth closure into 000."}
+  ],
+  "review_warnings": [
+    "045 blind horizontal disagreement accepted from labeled ordered-loop evidence.",
+    "157.5 and 202.5 horizontal cues are subtle near down.",
+    "225 and 247.5 vertical cues are restrained near left.",
+    "135->157.5 and 180->202.5 metric warnings have no visible snap, scale pop, reversal, or identity drift."
+  ]
+}
