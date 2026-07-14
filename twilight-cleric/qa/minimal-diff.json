@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "expected_changed_row": 4,
+  "rows": [
+    {
+      "row": 0,
+      "changed_pixels": 0
+    },
+    {
+      "row": 1,
+      "changed_pixels": 0
+    },
+    {
+      "row": 2,
+      "changed_pixels": 0
+    },
+    {
+      "row": 3,
+      "changed_pixels": 0
+    },
+    {
+      "row": 4,
+      "changed_pixels": 78587
+    },
+    {
+      "row": 5,
+      "changed_pixels": 0
+    },
+    {
+      "row": 6,
+      "changed_pixels": 0
+    },
+    {
+      "row": 7,
+      "changed_pixels": 0
+    },
+    {
+      "row": 8,
+      "changed_pixels": 0
+    },
+    {
+      "row": 9,
+      "changed_pixels": 0
+    },
+    {
+      "row": 10,
+      "changed_pixels": 0
+    }
+  ]
+}

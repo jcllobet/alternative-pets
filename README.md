@@ -1,16 +1,7 @@
-# White Kitsune Pet
+# Alternative Pets
 
-White Kitsune is a Codex-compatible v2 guardian fox companion with nine standard animation rows and 16 clockwise look directions.
+Alternative Pets is a community collection of expressive, original companions for Codex. The goal is to make it easy to create, improve, and share pets that feel personal while meeting Codex's animation and quality requirements.
 
-![White Kitsune direction preview](white-kitsune/qa/look-directions.png)
+Contributions are welcome: new pets, repaired animations, stronger visual consistency, QA improvements, and documentation. Keep submissions original and rights-safe, and include the installable pet plus enough QA evidence for reviewers to trust it.
 
-The [White Kitsune package](white-kitsune/) contains its `pet.json`, lossless `1536x2288` v2 `spritesheet.webp`, atlas metadata, generation request, deterministic validation, direction QA evidence, motion previews, fixed fur/vermilion palette contract, and measured consistency reports.
-
-## Install
-
-```bash
-mkdir -p ~/.codex/pets/white-kitsune
-cp white-kitsune/pet.json white-kitsune/spritesheet.webp ~/.codex/pets/white-kitsune/
-```
-
-The packaged atlas passes strict v2 validation with no errors or warnings.
+Start with [prompt.md](prompt.md) and the [OpenAI Hatch Pet skill](https://github.com/openai/skills/tree/main/skills/.curated/hatch-pet), then open a pull request with your pet in its own folder. We would love to see what you make.

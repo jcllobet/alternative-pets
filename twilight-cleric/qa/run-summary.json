@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "repair": "strict fixed-height hover registration",
+  "comparison_package": true,
+  "run_dir": ".",
+  "spritesheet": "../spritesheet.webp",
+  "validation": "validation-extended.json",
+  "chroma_despill": "chroma-despill-extended.json",
+  "contact_sheet": "contact-sheet-extended.png",
+  "direction_sheet": "look-directions.png",
+  "direction_semantics": "direction-semantics.json",
+  "blind_direction_validation": "direction-blind-validation.json",
+  "continuity": "look-continuity.json",
+  "review": "review.json",
+  "final_visual_qa": "final-visual-qa.json",
+  "minimal_diff": "minimal-diff.json",
+  "installed_scale_validation": "installed-scale-validation.json",
+  "package": ".."
+}
